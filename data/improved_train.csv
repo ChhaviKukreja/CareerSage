@@ -1,0 +1,158 @@
+Name,Education Level,Subjects,Skills,GPA,Interests,Career Path
+Alex Thompson,Bachelor's,Computer Science,Python; C++; Git,3.4,Algorithms; Problem Solving,Software Developer
+Maria Rodriguez,Bachelor's,Computer Science,React; CSS; JavaScript,3.1,UI Design; Web Development,Frontend Developer
+James Kim,Master's,Data Science,Python; Scikit-learn; Jupyter,3.8,Machine Learning; Analytics,Data Scientist
+Sarah Connor,Bachelor's,Computer Science,Node.js; Express; MySQL,3.5,API Development; Databases,Backend Developer
+Michael Chen,Master's,Computer Science,React; Node.js; AWS,3.7,Full Stack Architecture,Fullstack Developer
+Lisa Wang,Master's,Statistics,R; Python; Tableau,3.9,Statistical Analysis; Visualization,Data Scientist
+David Park,Bachelor's,Computer Science,Java; Maven; JUnit,3.2,Enterprise Software,Software Developer
+Emma Johnson,Bachelor's,Web Design,HTML; CSS; Figma,3.3,User Interface; Visual Design,Frontend Developer
+Robert Lee,Master's,Computer Science,Pandas; NumPy; SQL,3.6,Data Processing; Business Intelligence,Data Analyst
+Jennifer Liu,Bachelor's,Computer Science,Django; REST API; PostgreSQL,3.4,Web Services; Database Design,Backend Developer
+Thomas Anderson,Bachelor's,Information Technology,Swift; iOS; Core Data,3.5,Mobile Apps; User Experience,Mobile Developer
+Rachel Green,Master's,Computer Science,Flutter; Dart; Firebase,3.8,Cross-platform Development,Mobile Developer
+Kevin Brown,Bachelor's,Computer Science,React Native; JavaScript; Redux,3.1,Mobile Interfaces,Mobile Developer
+Sophia Martinez,Bachelor's,Data Engineering,Python; Spark; Kafka,3.7,Big Data; Data Pipelines,Data Engineer
+Andrew Wilson,Master's,Computer Science,SQL; ETL; Airflow,3.6,Data Architecture,Data Engineer
+Michelle Davis,Bachelor's,Computer Science,Selenium; Python; TestNG,3.3,Test Automation; Quality Assurance,QA Engineer
+Christopher Garcia,Bachelor's,Computer Science,Manual Testing; Bug Tracking; JIRA,3.2,Software Testing,QA Engineer
+Amanda Taylor,Master's,Cybersecurity,Penetration Testing; Nmap; Wireshark,3.8,Network Security; Ethical Hacking,Security Engineer
+Brandon White,Bachelor's,Information Security,Firewall Configuration; Security Auditing,3.4,Information Protection,Security Engineer
+Jessica Moore,Bachelor's,Business Administration,Agile; Scrum; Risk Management,3.5,Team Leadership; Project Coordination,Project Manager
+Daniel Jackson,Master's,Business Management,Stakeholder Communication; Budget Planning,3.6,Strategic Planning,Project Manager
+Nicole Harris,Bachelor's,Business Analytics,Requirements Analysis; Process Modeling,3.3,Business Intelligence; Process Improvement,Business Analyst
+Ryan Clark,Master's,Economics,Market Research; Data Analysis; Excel,3.7,Financial Analysis; Strategic Analysis,Business Analyst
+Megan Lewis,Bachelor's,Graphic Design,Sketch; Adobe XD; Prototyping,3.2,User Experience; Interface Design,UX Designer
+Tyler Robinson,Master's,Design,User Research; Wireframing; Usability Testing,3.8,Human-Centered Design,UX Designer
+Ashley Walker,Bachelor's,Psychology,User Behavior; A/B Testing; Analytics,3.4,User Research; Product Design,UX Designer
+Jacob Hall,Master's,Computer Science,Docker; Kubernetes; Jenkins,3.7,DevOps; Infrastructure Automation,DevOps Engineer
+Samantha Young,Bachelor's,Computer Science,AWS; Terraform; Monitoring,3.5,Cloud Infrastructure; Site Reliability,DevOps Engineer
+Nathan King,Bachelor's,Information Systems,MySQL; Database Design; Performance Tuning,3.1,Database Management,Database Administrator
+Victoria Scott,Master's,Computer Science,Unity; C#; Game Physics,3.6,Game Programming; Interactive Media,Game Developer
+Carlos Mendez,Bachelor's,Computer Science,Python; Flask; SQLAlchemy,3.3,Web Applications; Database Integration,Software Developer
+Isabella Torres,Bachelor's,Computer Science,Angular; TypeScript; RxJS,3.5,Modern Frontend Frameworks,Frontend Developer
+William Foster,Master's,Data Science,Machine Learning; Deep Learning; Keras,3.9,Neural Networks; AI Research,Data Scientist
+Grace Mitchell,Bachelor's,Computer Science,Spring Boot; Hibernate; Maven,3.2,Backend Frameworks,Backend Developer
+Ethan Cooper,Master's,Computer Science,Vue.js; Nuxt.js; Vuex,3.6,Progressive Web Apps,Fullstack Developer
+Olivia Reed,Master's,Mathematics,Statistical Modeling; SAS; SPSS,3.8,Quantitative Analysis,Data Analyst
+Alexander Bailey,Bachelor's,Computer Science,C#; .NET; Entity Framework,3.4,Microsoft Technologies,Software Developer
+Chloe Rivera,Bachelor's,Web Development,Bootstrap; SASS; jQuery,3.1,Responsive Design,Frontend Developer
+Mason Wright,Master's,Data Analytics,Business Intelligence; Power BI; QlikView,3.7,Data Visualization,Data Analyst
+Aria Peterson,Bachelor's,Computer Science,Kotlin; Android; Room Database,3.3,Android Development,Mobile Developer
+Logan Campbell,Bachelor's,Computer Science,Objective-C; Swift; Cocoa Touch,3.5,iOS Development,Mobile Developer
+Harper Evans,Master's,Computer Science,Xamarin; C#; MVVM,3.6,Cross-platform Mobile,Mobile Developer
+Jackson Phillips,Bachelor's,Computer Science,Apache Beam; Hadoop; Hive,3.4,Big Data Processing,Data Engineer
+Avery Turner,Master's,Data Engineering,Snowflake; dbt; Data Modeling,3.8,Cloud Data Warehousing,Data Engineer
+Ella Parker,Bachelor's,Computer Science,Cypress; Jest; Mocha,3.2,Frontend Testing,QA Engineer
+Owen Rodriguez,Bachelor's,Information Technology,LoadRunner; JMeter; Performance Analysis,3.5,Performance Testing,QA Engineer
+Lily Martinez,Master's,Cybersecurity,SIEM; Splunk; Security Operations,3.7,Security Monitoring,Security Engineer
+Luke Thompson,Bachelor's,Computer Science,Vulnerability Assessment; Metasploit,3.3,Penetration Testing,Security Engineer
+Zoe Anderson,Bachelor's,Project Management,PMP; Kanban; Resource Planning,3.4,Agile Methodologies,Project Manager
+Wyatt Garcia,Master's,Business Administration,Change Management; Strategic Analysis,3.6,Business Transformation,Project Manager
+Violet Johnson,Bachelor's,Business Analytics,SQL; Tableau; Data Mining,3.5,Business Intelligence,Business Analyst
+Ezra Wilson,Master's,Information Systems,Process Optimization; Workflow Design,3.8,System Analysis,Business Analyst
+Hazel Brown,Bachelor's,Human-Computer Interaction,Figma; InVision; User Testing,3.2,Interaction Design,UX Designer
+Ian Martinez,Master's,Design,Design Systems; Component Libraries,3.7,Product Design,UX Designer
+Nora Thompson,Bachelor's,Psychology,Qualitative Research; User Interviews,3.4,UX Research,UX Designer
+Caleb Anderson,Master's,Computer Science,Ansible; Chef; Infrastructure as Code,3.6,Configuration Management,DevOps Engineer
+Layla Garcia,Bachelor's,Computer Science,GitLab CI; Prometheus; Grafana,3.3,CI/CD Pipelines,DevOps Engineer
+Ryan Johnson,Bachelor's,Information Systems,Oracle; PL/SQL; Database Tuning,3.5,Enterprise Databases,Database Administrator
+Mia Wilson,Master's,Computer Science,Unreal Engine; Blueprint; Level Design,3.8,Game Development,Game Developer
+Noah Brown,Bachelor's,Game Design,Photoshop; Maya; 3D Modeling,3.1,Game Art,Game Developer
+Sophie Martinez,Bachelor's,Computer Science,Blockchain; Ethereum; Web3.js,3.4,Decentralized Applications,Blockchain Developer
+Henry Thompson,Master's,Computer Science,Smart Contracts; Solidity; DeFi,3.7,Blockchain Architecture,Blockchain Developer
+Madison Anderson,Bachelor's,Computer Science,IoT; Arduino; Raspberry Pi,3.2,Hardware Programming,IoT Developer
+Carter Garcia,Master's,Electrical Engineering,Embedded Systems; C; Real-time OS,3.6,Device Development,IoT Developer
+Scarlett Johnson,Bachelor's,Computer Science,OpenCV; Image Processing; TensorFlow,3.5,Computer Vision,Computer Vision Engineer
+Hunter Wilson,Master's,Computer Science,YOLO; Object Detection; CNN,3.8,Deep Learning Vision,Computer Vision Engineer
+Penelope Brown,PhD,Computer Science,Research Methods; Academic Writing,3.9,Scientific Research,Research Scientist
+Grayson Martinez,Bachelor's,Linguistics,NLP; NLTK; Transformer Models,3.3,Language Technology,NLP Engineer
+Aurora Thompson,Master's,Computer Science,BERT; GPT; Text Classification,3.7,Language Models,NLP Engineer
+Kai Anderson,Bachelor's,Computer Science,Speech Recognition; Audio Processing,3.4,Voice Technology,Speech Engineer
+Nova Garcia,Master's,Mechanical Engineering,ROS; Path Planning; Sensor Fusion,3.6,Autonomous Robotics,Robotics Engineer
+River Johnson,Bachelor's,Computer Science,Computer Vision; SLAM; Navigation,3.2,Robot Vision,Robotics Engineer
+Sage Wilson,Master's,Computer Science,AWS Solutions; Cloud Architecture,3.8,Cloud Infrastructure,Cloud Engineer
+Phoenix Brown,Bachelor's,Computer Science,Azure; DevOps; Container Services,3.5,Cloud Operations,Cloud Architect
+Rowan Martinez,Master's,Computer Science,Google Cloud; Microservices; Serverless,3.7,Distributed Systems,Cloud Engineer
+Jordan Thompson,Bachelor's,Software Engineering,Python; Django; Test-Driven Development,3.3,Web Development,Software Developer
+Avery Anderson,Bachelor's,Computer Science,Redux; Material-UI; Progressive Web Apps,3.4,Frontend Architecture,Frontend Developer
+Casey Garcia,Master's,Data Science,Time Series Analysis; Forecasting; Prophet,3.9,Predictive Analytics,Data Scientist
+Taylor Johnson,Bachelor's,Computer Science,GraphQL; Apollo; Microservices,3.1,API Development,Backend Developer
+Riley Wilson,Master's,Computer Science,React; Node.js; Docker; Kubernetes,3.6,Cloud-native Development,Fullstack Developer
+Parker Brown,Bachelor's,Statistics,Regression Analysis; Hypothesis Testing; R,3.5,Statistical Computing,Data Analyst
+Peyton Martinez,Master's,Data Science,A/B Testing; Experimentation; Causal Inference,3.8,Data Strategy,Data Scientist
+Cameron Thompson,Bachelor's,Computer Science,Kotlin Multiplatform; Compose; Ktor,3.2,Mobile Architecture,Mobile Developer
+Emerson Anderson,Bachelor's,Computer Science,SwiftUI; Combine; Core ML,3.4,iOS Development,Mobile Developer
+Finley Garcia,Master's,Computer Science,React Native; Expo; Native Modules,3.7,Hybrid Mobile Development,Mobile Developer
+Reese Johnson,Bachelor's,Data Engineering,Apache Airflow; Prefect; Orchestration,3.3,Data Pipeline Engineering,Data Engineer
+Quinn Wilson,Master's,Computer Science,Databricks; MLflow; Feature Engineering,3.6,ML Engineering,Data Engineer
+Dakota Brown,Bachelor's,Computer Science,Playwright; WebDriver; Test Architecture,3.1,Test Engineering,QA Engineer
+Emery Martinez,Master's,Computer Science,API Testing; Postman; Test Automation,3.5,Quality Engineering,QA Engineer
+Skylar Thompson,Bachelor's,Cybersecurity,Cloud Security; AWS Security; Compliance,3.4,Cloud Security,Security Engineer
+Sage Anderson,Master's,Information Security,Threat Intelligence; Incident Response,3.8,Security Analysis,Security Engineer
+River Garcia,Bachelor's,Project Management,Waterfall; Hybrid Methodologies; PMO,3.2,Traditional Project Management,Project Manager
+Phoenix Johnson,Master's,Business Management,Portfolio Management; Program Leadership,3.7,Strategic Management,Project Manager
+Nova Wilson,Bachelor's,Business Administration,Salesforce; CRM Analytics; Workflow,3.3,Business Operations,Business Analyst
+Rowan Brown,Master's,Industrial Engineering,Lean Six Sigma; Process Excellence,3.6,Operational Analysis,Business Analyst
+Jordan Martinez,Bachelor's,Interaction Design,Principle; Framer; Motion Graphics,3.4,Design Prototyping,UX Designer
+Avery Thompson,Master's,Human Factors,Accessibility; Inclusive Design; WCAG,3.8,Universal Design,UX Designer
+Casey Anderson,Bachelor's,Cognitive Science,Eye Tracking; Usability Studies; Metrics,3.1,User Research,UX Designer
+Taylor Garcia,Master's,Computer Science,Helm; Istio; Service Mesh,3.5,Platform Engineering,DevOps Engineer
+Riley Johnson,Bachelor's,Information Technology,Nagios; Zabbix; System Monitoring,3.3,Site Reliability,DevOps Engineer
+Parker Wilson,Bachelor's,Information Systems,SQL Server; SSRS; Database Development,3.4,Database Development,Database Administrator
+Peyton Brown,Master's,Computer Science,Godot; GDScript; Indie Game Development,3.6,Indie Games,Game Developer
+Cameron Martinez,Bachelor's,Game Development,Blender; Animation; Asset Creation,3.2,Game Assets,Game Developer
+Emerson Thompson,Master's,Computer Science,Hyperledger; Chaincode; Enterprise Blockchain,3.7,Enterprise Blockchain,Blockchain Developer
+Finley Anderson,Bachelor's,Computer Science,Cryptocurrency; Trading Bots; DeFi Protocols,3.3,Crypto Development,Blockchain Developer
+Reese Garcia,Bachelor's,Electrical Engineering,LoRaWAN; Zigbee; Wireless Protocols,3.5,IoT Connectivity,IoT Developer
+Quinn Johnson,Master's,Computer Science,Edge AI; TinyML; Optimization,3.8,Edge Computing,IoT Developer
+Dakota Wilson,Bachelor's,Computer Science,Semantic Segmentation; Medical Imaging,3.1,Healthcare Vision,Computer Vision Engineer
+Emery Brown,Master's,Computer Science,3D Reconstruction; Point Clouds; LIDAR,3.6,3D Computer Vision,Computer Vision Engineer
+Skylar Martinez,PhD,Artificial Intelligence,Deep Reinforcement Learning; Publications,3.9,AI Research,Research Scientist
+Sage Thompson,Bachelor's,Computational Linguistics,Question Answering; Information Retrieval,3.4,Language Understanding,NLP Engineer
+River Anderson,Master's,Computer Science,Voice Assistants; Dialog Systems; Conversational AI,3.7,Voice Interfaces,Speech Engineer
+Phoenix Garcia,Bachelor's,Robotics,Manipulation; Grasping; Robot Dynamics,3.2,Robot Control,Robotics Engineer
+Nova Johnson,Master's,Computer Science,Multi-cloud; Cost Optimization; Governance,3.6,Cloud Strategy,Cloud Engineer
+Rowan Wilson,Bachelor's,Information Technology,Serverless; Lambda; Function-as-a-Service,3.5,Serverless Architecture,Cloud Architect
+Jordan Brown,Master's,Computer Science,Event-driven Architecture; Message Queues,3.8,Distributed Architecture,Cloud Engineer
+Avery Martinez,Bachelor's,Software Engineering,Test-Driven Development; Clean Code; SOLID,3.3,Software Craftsmanship,Software Developer
+Casey Thompson,Bachelor's,Computer Science,Micro-frontends; Module Federation; Monorepos,3.4,Frontend Architecture,Frontend Developer
+Taylor Anderson,Master's,Applied Mathematics,Bayesian Statistics; MCMC; Probabilistic Programming,3.9,Statistical Modeling,Data Scientist
+Riley Garcia,Bachelor's,Computer Science,Async Programming; Event Loops; Concurrency,3.1,Systems Programming,Backend Developer
+Parker Johnson,Master's,Computer Science,Kubernetes; Helm; Service Mesh; Observability,3.7,Platform Engineering,Fullstack Developer
+Peyton Wilson,Bachelor's,Applied Statistics,Survey Design; Sampling Methods; Weighting,3.5,Survey Analytics,Data Analyst
+Cameron Brown,Master's,Operations Research,Optimization; Linear Programming; Decision Science,3.8,Analytics Engineering,Data Scientist
+Emerson Martinez,Bachelor's,Computer Science,Jetpack Compose; Kotlin Coroutines; Architecture Components,3.2,Modern Android,Mobile Developer
+Finley Thompson,Bachelor's,Computer Science,SwiftUI; Async/Await; iOS 16 Features,3.4,Modern iOS,Mobile Developer
+Reese Anderson,Master's,Computer Science,Flutter 3; Dart Null Safety; State Management,3.6,Cross-platform UI,Mobile Developer
+Quinn Garcia,Bachelor's,Data Engineering,dbt; Fivetran; Modern Data Stack,3.3,Analytics Engineering,Data Engineer
+Dakota Johnson,Master's,Computer Science,MLOps; Kubeflow; Model Deployment,3.7,ML Platform Engineering,Data Engineer
+Emery Wilson,Bachelor's,Computer Science,Contract Testing; Pact; Service Virtualization,3.1,Integration Testing,QA Engineer
+Skylar Brown,Master's,Computer Science,Chaos Engineering; Fault Injection; Resilience,3.5,Reliability Testing,QA Engineer
+Sage Martinez,Bachelor's,Cybersecurity,Zero Trust; Identity Management; SSO,3.4,Identity Security,Security Engineer
+River Thompson,Master's,Information Security,Threat Modeling; Security Architecture; Risk Assessment,3.8,Security Architecture,Security Engineer
+Phoenix Anderson,Bachelor's,Business Administration,OKRs; KPIs; Performance Management,3.2,Metrics-driven Management,Project Manager
+Nova Garcia,Master's,Engineering Management,Technical Leadership; Architecture Decisions,3.6,Engineering Management,Project Manager
+Rowan Johnson,Bachelor's,Systems Analysis,Business Process Modeling; ERP Systems,3.3,Systems Analysis,Business Analyst
+Jordan Wilson,Master's,Data Analytics,Customer Analytics; Segmentation; CLV,3.7,Customer Intelligence,Business Analyst
+Avery Brown,Bachelor's,Service Design,Journey Mapping; Service Blueprints; CX Design,3.4,Service Experience,UX Designer
+Casey Martinez,Master's,Design Strategy,Design Thinking; Innovation; Design Leadership,3.8,Design Strategy,UX Designer
+Taylor Thompson,Bachelor's,Anthropology,Ethnographic Research; Cultural Analysis; Behavioral Insights,3.1,Design Research,UX Designer
+Riley Anderson,Master's,Computer Science,GitOps; ArgoCD; Continuous Deployment,3.5,Platform Operations,DevOps Engineer
+Parker Garcia,Bachelor's,Systems Engineering,Infrastructure Monitoring; Capacity Planning; SLA Management,3.3,Systems Reliability,DevOps Engineer
+Peyton Johnson,Bachelor's,Information Systems,Data Warehouse; Star Schema; Dimensional Modeling,3.4,Data Warehousing,Database Administrator
+Cameron Wilson,Master's,Computer Science,Procedural Generation; Shaders; Graphics Programming,3.6,Technical Game Development,Game Developer
+Emerson Brown,Bachelor's,Interactive Media,Game Narrative; Quest Design; Player Experience,3.2,Game Design,Game Developer
+Finley Martinez,Master's,Computer Science,Consensus Mechanisms; Layer 2; Scalability Solutions,3.7,Blockchain Infrastructure,Blockchain Developer
+Reese Thompson,Bachelor's,Computer Science,NFTs; Marketplace Development; Token Standards,3.3,Web3 Development,Blockchain Developer
+Quinn Anderson,Bachelor's,Computer Engineering,Industrial IoT; SCADA; Manufacturing Systems,3.5,Industrial IoT,IoT Developer
+Dakota Garcia,Master's,Computer Science,Digital Twins; Simulation; Predictive Maintenance,3.8,IoT Analytics,IoT Developer
+Emery Johnson,Bachelor's,Computer Science,Autonomous Vehicles; LIDAR; Sensor Fusion,3.1,Automotive Vision,Computer Vision Engineer
+Skylar Wilson,Master's,Computer Science,Augmented Reality; ARKit; Computer Vision,3.6,AR/VR Development,Computer Vision Engineer
+Sage Brown,PhD,Computer Science,Quantum Computing; Algorithms; Theoretical Research,3.9,Quantum Research,Research Scientist
+River Martinez,Bachelor's,Linguistics,Machine Translation; Cross-lingual Models; Multilingual NLP,3.4,Translation Technology,NLP Engineer
+Phoenix Thompson,Master's,Computer Science,Real-time Speech Processing; Voice Cloning; TTS,3.7,Voice Synthesis,Speech Engineer
+Nova Anderson,Bachelor's,Mechanical Engineering,Humanoid Robots; Bipedal Locomotion; Balance Control,3.2,Humanoid Robotics,Robotics Engineer
+Rowan Garcia,Master's,Computer Science,Hybrid Cloud; Multi-cloud Management; Cloud Migration,3.6,Cloud Integration,Cloud Engineer
+Jordan Johnson,Bachelor's,Information Technology,Container Security; Runtime Protection; Image Scanning,3.5,Container Platform,Cloud Architect
+Avery Wilson,Master's,Computer Science,Event Sourcing; CQRS; Domain-driven Design,3.8,Software Architecture,Cloud Engineer

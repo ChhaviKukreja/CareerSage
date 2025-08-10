@@ -1,0 +1,31 @@
+Name,Education Level,Subjects,Skills,GPA,Interests,Career Path
+Alex Rodriguez,Bachelor's,Computer Science,Python; Java; Docker,3.4,Software Architecture; Clean Code,Software Developer
+Maria Thompson,Bachelor's,Web Development,Vue.js; TypeScript; SASS,3.2,Modern UI; Responsive Design,Frontend Developer
+James Wilson,Master's,Data Science,Python; TensorFlow; MLflow,3.8,Deep Learning; Model Deployment,Data Scientist
+Sarah Kim,Bachelor's,Computer Science,FastAPI; PostgreSQL; Redis,3.5,Microservices; Database Optimization,Backend Developer
+Michael Garcia,Master's,Software Engineering,React; Node.js; GraphQL,3.7,Full Stack Architecture;  Design,Fullstack Developer
+Lisa Chen,Master's,Statistics,R; Tableau; Statistical Modeling,3.9,Business Analytics; Data Visualization,Data Scientist
+David Martinez,Bachelor's,Computer Science,Spring Boot; Kafka; Kubernetes,3.3,Distributed Systems; Event Processing,Software Developer
+Emma Davis,Bachelor's,User Experience Design,Figma; Framer; User Research,3.4,Interface Design; Usability Testing,Frontend Developer
+Robert Anderson,Bachelor's,Data Analytics,SQL; Power BI; Python,3.6,Business Intelligence; Reporting,Data Analyst
+Jennifer Liu,Bachelor's,Computer Science,Django; Celery; AWS,3.2,Web Services; Cloud Integration,Backend Developer
+Thomas Brown,Bachelor's,Mobile Development,Swift; Core Data; UIKit,3.5,iOS Apps; Native Development,Mobile Developer
+Rachel Johnson,Master's,Computer Science,Flutter; Firebase; State Management,3.8,Cross-platform; Mobile Architecture,Mobile Developer
+Kevin White,Bachelor's,Information Technology,React Native; Expo; Push Notifications,3.1,Hybrid MobiAPIle; User Engagement,Mobile Developer
+Sophia Lee,Bachelor's,Data Engineering,Airflow; Spark; Data Lakes,3.7,ETL Pipelines; Big Data Processing,Data Engineer
+Andrew Taylor,Master's,Computer Science,Snowflake; dbt; Data Modeling,3.6,Cloud Data Warehousing; Analytics,Data Engineer
+Michelle Rodriguez,Bachelor's,Computer Science,Cypress; Selenium; Test Automation,3.3,Quality Assurance; CI/CD Testing,QA Engineer
+Christopher Garcia,Bachelor's,Software Testing,Postman; JMeter; Bug Tracking,3.2,API Testing; Performance Analysis,QA Engineer
+Amanda Wilson,Master's,Cybersecurity,Penetration Testing; OWASP; Security Auditing,3.8,Ethical Hacking; Vulnerability Assessment,Security Engineer
+Brandon Davis,Bachelor's,Information Security,SIEM; Splunk; Incident Response,3.4,Security Operations; Threat Detection,Security Engineer
+Jessica Martinez,Bachelor's,Project Management,Jira; Confluence; Agile Coaching,3.5,Scrum Master; Team Leadership,Project Manager
+Daniel Thompson,Master's,Business Management,Risk Management; Stakeholder Communication,3.6,Strategic Planning; Resource Allocation,Project Manager
+Nicole Brown,Bachelor's,Business Analytics,Tableau; SQL; Requirements Gathering,3.3,Process Analysis; Business Intelligence,Business Analyst
+Ryan Johnson,Master's,Industrial Engineering,Lean Six Sigma; Process Optimization,3.7,Operational Excellence; Data-driven Decisions,Business Analyst
+Megan Wilson,Bachelor's,Graphic Design,Adobe XD; Sketch; Prototyping,3.2,User Interface; Visual Design Systems,UX Designer
+Tyler Garcia,Master's,Human-Computer Interaction,User Research; A/B Testing; Design Thinking,3.8,UX Strategy; Product Design,UX Designer
+Ashley Davis,Bachelor's,Psychology,Usability Testing; Journey Mapping; Persona Development,3.4,User Experience; Behavioral Analysis,UX Designer
+Jacob Martinez,Master's,Computer Science,Terraform; Jenkins; Monitoring,3.7,Infrastructure as Code; CI/CD Automation,DevOps Engineer
+Samantha Thompson,Bachelor's,Information Technology,Docker; Kubernetes; Prometheus,3.5,Container Orchestration; Site Reliability,DevOps Engineer
+Nathan Brown,Bachelor's,Database Management,MySQL; Performance Tuning; Backup Strategies,3.1,Database Administration; Query Optimization,Database Administrator
+Victoria Johnson,Master's,Computer Science,Unity; C#; Shader Programming,3.6,Game Programming; Graphics Optimization,Game Developer

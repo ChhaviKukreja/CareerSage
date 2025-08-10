@@ -3,10 +3,13 @@ import pandas as pd
 import ast
 import os
 import joblib
-from sklearn.preprocessing import MultiLabelBinarizer, LabelEncoder
+from collections import Counter
+from sklearn.preprocessing import LabelEncoder
 
 ENCODERS_DIR = "models/encoders"
 os.makedirs(ENCODERS_DIR, exist_ok=True)
+
+TOP_N = 50  # limit per category
 
 def parse_list_column(df, column):
     """Safely parse list-like strings into Python lists."""
@@ -22,6 +25,19 @@ def parse_list_column(df, column):
                 return [i.strip() for i in x.split(';')]
         return []
     df[column] = df[column].apply(parse)
+    return df
+
+def build_vocab(df, column, top_n):
+    """Build top-N most frequent items from a list column."""
+    counter = Counter()
+    for row in df[column]:
+        counter.update(row)
+    return [item for item, _ in counter.most_common(top_n)]
+
+def encode_with_vocab(df, column, vocab):
+    """Create binary columns for each vocab item."""
+    for term in vocab:
+        df[f"{column}_{term}"] = df[column].apply(lambda items: int(term in items))
     return df
 
 def engineer_features(df, training=True):
@@ -42,50 +58,31 @@ def engineer_features(df, training=True):
         joblib.dump(le, le_path)
     else:
         le = joblib.load(le_path)
-        df['Education Level'] = df['Education Level'].apply(
-            lambda x: x if x in le.classes_ else "Other"
-        )
-        # Add "Other" if missing from training classes
+        df['Education Level'] = df['Education Level'].apply(lambda x: x if x in le.classes_ else "Other")
         if "Other" not in le.classes_:
             le.classes_ = np.append(le.classes_, "Other")
-        
         df['Education Level'] = le.transform(df['Education Level'])
 
     # -----------------------------
-    # MultiLabelBinarizer for Subjects, Skills, Interests
+    # Top-N Encoding for list columns
     # -----------------------------
-    mlb_paths = {
-        "subjects": os.path.join(ENCODERS_DIR, "mlb_subjects.pkl"),
-        "skills": os.path.join(ENCODERS_DIR, "mlb_skills.pkl"),
-        "interests": os.path.join(ENCODERS_DIR, "mlb_interests.pkl"),
-    }
+    vocabs_path = os.path.join(ENCODERS_DIR, "topn_vocabs.pkl")
+    vocabs = {}
 
-    encoders = {
-        "subjects": MultiLabelBinarizer(),
-        "skills": MultiLabelBinarizer(),
-        "interests": MultiLabelBinarizer(),
-    }
+    if training:
+        for col in ['Subjects', 'Skills', 'Interests']:
+            vocabs[col] = build_vocab(df, col, TOP_N)
+        joblib.dump(vocabs, vocabs_path)
+    else:
+        vocabs = joblib.load(vocabs_path)
+        # Replace unseen values with nothing (ignore)
+        for col in ['Subjects', 'Skills', 'Interests']:
+            df[col] = [[item for item in row if item in vocabs[col]] for row in df[col]]
 
-    encoded_frames = []
-    for col, key in zip(['Subjects', 'Skills', 'Interests'], ['subjects', 'skills', 'interests']):
-        if training:
-            # Add "Other" explicitly
-            all_values = set(v for row in df[col] for v in row)
-            all_values.add("Other")
-            encoders[key].fit([list(all_values)])
-            joblib.dump(encoders[key], mlb_paths[key])
-        else:
-            encoders[key] = joblib.load(mlb_paths[key])
-            # Replace unseen values with "Other"
-            df[col] = df[col].apply(lambda lst: [v if v in encoders[key].classes_ else "Other" for v in lst])
+    for col in ['Subjects', 'Skills', 'Interests']:
+        df = encode_with_vocab(df, col, vocabs[col])
 
-        encoded = pd.DataFrame(
-            encoders[key].transform(df[col]),
-            columns=[f"{col[:-1]}_{cls}" for cls in encoders[key].classes_]
-        )
-        encoded_frames.append(encoded)
-
-    X = pd.concat([df[['Education Level', 'GPA']].reset_index(drop=True)] + encoded_frames, axis=1)
+    X = df.drop(columns=['Career Path', 'Subjects', 'Skills', 'Interests'])
     y = df['Career Path']
 
     return X, y

@@ -1,31 +1,41 @@
 # preprocessing/encode_features.py
-import re
 import pandas as pd
+from collections import Counter
 
-def extract_keywords_from_training(df, text_columns):
-    """Extract all unique keywords from specified columns in training dataset."""
-    keywords = set()
-    for col in text_columns:
-        df[col] = df[col].fillna("").astype(str)
-        for text in df[col]:
-            words = re.findall(r'\b\w[\w#+.-]*\b', text)  # includes C++, C#, HTML5
-            keywords.update(words)
-    return sorted(keywords)
+def build_vocab_from_lists(df, list_columns, top_n=50):
+    """
+    Builds a vocabulary of the top N most common items across specified list columns.
+    """
+    counter = Counter()
+    for col in list_columns:
+        if col in df.columns:
+            for items in df[col]:
+                if isinstance(items, list):
+                    counter.update(items)
+                elif pd.notna(items):
+                    counter.update([str(items)])
+    vocab = [item for item, _ in counter.most_common(top_n)]
+    return vocab
 
-def encode_features_dynamic(df, keywords=None, text_columns=None):
-    """Encodes dataset features dynamically based on given or extracted keywords."""
-    if text_columns is None:
-        text_columns = df.select_dtypes(include=['object']).columns.tolist()
+def encode_with_vocab(df, vocab, list_columns):
+    """
+    Encodes list-based columns using a fixed vocabulary.
+    """
+    for term in vocab:
+        df[f"Feat_{term}"] = df[list_columns].apply(
+            lambda row: int(any(term == item for col in list_columns for item in (row[col] if isinstance(row[col], list) else []))),
+            axis=1
+        )
+    return df
 
-    # If no keywords provided, extract from dataset (training mode)
-    if keywords is None:
-        keywords = extract_keywords_from_training(df, text_columns)
-
-    for col in text_columns:
-        for kw in keywords:
-            clean_kw = kw.strip().replace(" ", "_")
-            df[f"{col}_{clean_kw}"] = df[col].str.contains(
-                rf"\b{re.escape(kw)}\b", case=False, na=False
-            ).astype(int)
-
-    return df, keywords
+def encode_features(df, list_columns, vocab=None, top_n=50, training=True):
+    """
+    Encodes features for ML model. 
+    In training mode, builds vocab; in prediction mode, uses provided vocab.
+    """
+    if training:
+        vocab = build_vocab_from_lists(df, list_columns, top_n=top_n)
+    
+    df = encode_with_vocab(df, vocab, list_columns)
+    
+    return df, vocab

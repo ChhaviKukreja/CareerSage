@@ -1,38 +1,45 @@
 import pandas as pd
 import joblib
-from sklearn.metrics import classification_report, accuracy_score
-from preprocessing import load_data, clean_data, normalize_gpa, engineer_features
+from collections import Counter
+from preprocessing import engineer_features  # ✅ new pipeline
 
-# Load trained model & feature columns
+# 1️⃣ Load trained model and feature columns
 model = joblib.load("models/career_model.joblib")
 feature_columns = joblib.load("models/feature_columns.joblib")
 
-# Load raw test data
-test_df = load_data("data/test_data.csv")
+# 2️⃣ Load raw test data
+test_df = pd.read_csv("data/test_data.csv")
 
-# Preprocess
-test_df = clean_data(test_df)
-test_df = normalize_gpa(test_df)
+# 3️⃣ Feature engineering (training=False for inference)
+X_test, _ = engineer_features(test_df, training=False)
 
-# Engineer features
-X_test, y_true = engineer_features(test_df, training=False)
-
-# Align feature columns
+# 4️⃣ Align columns to match training
 for col in feature_columns:
     if col not in X_test.columns:
-        X_test[col] = 0
+        X_test[col] = 0  # add missing features as 0
 X_test = X_test[feature_columns].fillna(0)
 
-# Predict
-y_pred = model.predict(X_test)
+# 5️⃣ Predict
+preds = model.predict(X_test)
 
-# Output predictions
-print("\nPredicted career paths:", y_pred)
+# 6️⃣ Stats on predictions
+pred_counts = Counter(preds)
+total_preds = len(preds)
+other_count = pred_counts.get("Other", 0)
 
-# If true labels exist, evaluate
-if y_true is not None and not y_true.isnull().all():
-    print("\n📊 Test Set Evaluation:")
-    print(classification_report(y_true, y_pred))
-    print("Accuracy:", accuracy_score(y_true, y_pred))
-else:
-    print("\n⚠ No true labels found in test data. Only predictions shown.")
+if other_count > 0:
+    print(f"⚠️ Warning: {other_count} predictions are 'Other' — merged rare classes in training.")
+
+# 7️⃣ Detailed prediction list
+print("\nPredicted career paths:")
+for i, pred in enumerate(preds, start=1):
+    print(f"{i}. {pred}")
+
+# 8️⃣ Summary stats
+print("\n📊 Prediction Summary:")
+summary_df = pd.DataFrame([
+    {"Career Path": label, "Count": count, "Percentage": f"{(count/total_preds)*100:.2f}%"}
+    for label, count in pred_counts.items()
+]).sort_values(by="Count", ascending=False)
+
+print(summary_df.to_string(index=False))

@@ -1,45 +1,36 @@
 import pandas as pd
 import joblib
-from collections import Counter
-from preprocessing import engineer_features  # ✅ new pipeline
 
-# 1️⃣ Load trained model and feature columns
-model = joblib.load("models/career_model.joblib")
-feature_columns = joblib.load("models/feature_columns.joblib")
+def run_predictions(test_file):
+    # Load the saved model and label encoder
+    model = joblib.load("model/xgb_pipeline.pkl")   # Adjust path if different
+    label_encoder = joblib.load("model/label_encoder.pkl")
 
-# 2️⃣ Load raw test data
-test_df = pd.read_csv("data/test_data.csv")
+    # Load test data
+    df = pd.read_csv(test_file)
 
-# 3️⃣ Feature engineering (training=False for inference)
-X_test, _ = engineer_features(test_df, training=False)
+    # Combine multiple text fields into one (same as training)
+    df["combined_text"] = (
+        df["skills"].astype(str) + " " +
+        df["subjects"].astype(str) + " " +
+        df["interests"].astype(str)
+    )
 
-# 4️⃣ Align columns to match training
-for col in feature_columns:
-    if col not in X_test.columns:
-        X_test[col] = 0  # add missing features as 0
-X_test = X_test[feature_columns].fillna(0)
+    # Make predictions
+    preds_encoded = model.predict(df["combined_text"])
 
-# 5️⃣ Predict
-preds = model.predict(X_test)
+    # Decode back to original class labels
+    preds_labels = label_encoder.inverse_transform(preds_encoded)
 
-# 6️⃣ Stats on predictions
-pred_counts = Counter(preds)
-total_preds = len(preds)
-other_count = pred_counts.get("Other", 0)
+    # Add predictions to DataFrame
+    df["Predicted Career Path"] = preds_labels
 
-if other_count > 0:
-    print(f"⚠️ Warning: {other_count} predictions are 'Other' — merged rare classes in training.")
+    # Save predictions to CSV
+    output_file = "predictions.csv"
+    df.to_csv(output_file, index=False)
 
-# 7️⃣ Detailed prediction list
-print("\nPredicted career paths:")
-for i, pred in enumerate(preds, start=1):
-    print(f"{i}. {pred}")
+    print(f"Predictions saved to {output_file}")
+    print(df[["skills", "subjects", "interests", "Predicted Career Path"]].head())
 
-# 8️⃣ Summary stats
-print("\n📊 Prediction Summary:")
-summary_df = pd.DataFrame([
-    {"Career Path": label, "Count": count, "Percentage": f"{(count/total_preds)*100:.2f}%"}
-    for label, count in pred_counts.items()
-]).sort_values(by="Count", ascending=False)
-
-print(summary_df.to_string(index=False))
+if __name__ == "__main__":
+    run_predictions("test_data.csv")  # Change to your actual test file

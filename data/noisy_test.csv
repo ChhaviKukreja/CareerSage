@@ -1,0 +1,51 @@
+Name,Education Level,Subjects,Skills,Interests,GPA,Career Path
+Lisa Anderson,Ph.D.,"Data Mining, Machine Learning, Python","R, SQL, Excel, Statistics, Machine Learning","Machine Learning, Analytics, Visualization",3.46,Data Science
+Nicholas Bailey,MASTER'S," Psychology, Advertising, Digital Marketing, Communications ",NULL,"Social Media, Digital Trends, Communication",3.98,Marketing
+Diane Tucker,Master's ,"Academia, Writing, Critical Thinking","Survey Design, Data Collection, SPSS","Analysis, Investigation, Discovery",3.60,Research
+Scott Watson,HIGH SCHOOL,"Chemistry, Nursing, Pharmacology","Electronic Health Records, Patient Care, Medical Equipment, Medical Terminology","Health & Wellness, Patient Care, Medical Research",3.14,Healthcare
+Raymond Hughes,Associate's,"English, Psychology","Curriculum Development, Classroom Management, Technology Integration"," Teaching, Mentoring ",1.59,Education
+Dennis Simmons, Bachelor's,"Chemistry, Nursing, Biology, Pharmacology","CPR, Medical Terminology, Medical Equipment, Patient Care",Health & Wellness; Helping Others,2.77,Healthcare
+James Harris,high school,"Statistics, Accounting, Economics, Finance","Financial Modeling, Excel, Bloomberg Terminal, Accounting, Risk Analysis","Economics, Trading",4.00,Finance
+Kevin Carter,PH.D.,"Data Mining, Machine Learning, Statistics, Computer Science","Statistics, SQL, TensorFlow, Machine Learning","Analytics, Visualization",2.55,Data Science
+Gregory Ross,NULL,NULL,"Patient Care, CPR, Medical Terminology","Medical Research, Patient Care, Medicine","3,11",Healthcare
+Justin Ramirez,Ph.D.,"Analysis, Critical Thinking","Academic Writing, SPSS","Critical Thinking, Discovery, Knowledge Creation, Investigation",2.44,Research
+Tyler Diaz,HIGH SCHOOL,"Digital Marketing, Psychology, Communications, Marketing","SEO, Email Marketing, Social Media","CONSUMER BEHAVIOR, DIGITAL TRENDS, BRANDING",2.76,Marketing
+Rachel Flores,Associate's,"Curriculum, Mathematics","Classroom Management, Assessment","Child Development, Learning",2.68,NULL
+Timothy Collins,bachelor's,"Medicine, Biology, Pharmacology","CPR, Patient Care, Electronic Health Records","Health & Wellness, Helping Others",-1.18,Healthcare
+Sarah Torres,high school,"Mathematics, Software Engineering","Node.js, React, AWS, JavaScript","Problem Solving, Innovation, Technology, Gaming",1.45,Software Engineering
+Jessica Howard,N/A,"Data Structures, Computer Science, Algorithms, Programming","Java, Node.js, React","Gaming, Problem Solving",2.03,Software Engineering
+Zachary Mills,Masters,"Computer Science, Mathematics",-,"Startups, Problem Solving, Open Source",3.58,Software Engineering
+Frances Ford,HIGH SCHOOL,"Economics, Business, Statistics","Risk Analysis, Investment Analysis, Bloomberg Terminal","Trading, Risk Management, Economics","2,46",Finance
+Barbara Rodriguez,bachelor's,"Critical Thinking, Research Methods, Academia, Statistics","Data Collection, Statistical Analysis","Academic Writing, Knowledge Creation, Critical Thinking",3.65,Research
+Dorothy Reed,Ph.D.,"Python, Mathematics","R, Python, Machine Learning, Tableau, TensorFlow","Machine Learning, AI, Statistics",3.47,Data Science
+Dorothy Reed,phd,"Chemistry, Nursing, Anatomy","Medical Terminology, Medical Equipment, Patient Care, CPR",N/A,"2,27",Healthcare
+Sarah Davis,PhD ,"Finance, Accounting","Excel, Risk Analysis"," Investing, Markets, Trading ",1.89,Finance
+Elizabeth Lee,Master's,"Curriculum, Mathematics",,"Learning, Teaching, Education Policy",3.79,Education
+Peter Robertson,Master's ,"Critical Thinking, Research Methods, Academia","Data Collection, Survey Design","Academic Writing, Knowledge Creation, Critical Thinking",1.38,Research
+N/A,phd,"Mathematics, Computer Science, Algorithms","Java, Python, Node.js","Innovation, Technology",2.12,Software Engineering
+ERIC COOPER,HIGH SCHOOL,"Psychology, Communications, Digital Marketing, Business","Analytics, Content Creation, Social Media, Adobe Creative Suite","Creativity, Social Media",3.37,Marketing
+Dennis Simmons,High School,"Medicine, Biology, Pharmacology, Anatomy","Patient Care, CPR, Medical Terminology, Medical Equipment, Electronic Health Records","Helping Others, Medicine, Medical Research",1.06,Healthcare
+Frances Ford,associate's,"Mathematics, Business, Accounting, Statistics","Financial Modeling, Bloomberg Terminal, Risk Analysis, Excel, Accounting","Risk Management, Financial Planning, Trading, Markets",3.21,Finance
+David Wilson,Bachelor's,"Machine Learning, Computer Science","Excel, TensorFlow",null,3.30,Data Science
+Brenda James,phd,"English, Psychology","Classroom Management, Assessment, Communication, Technology Integration, Curriculum Development","Curriculum Design, Education Policy",2.95,Education
+Debra Patterson,Associate's,-,"Accounting, Investment Analysis","Economics, Trading, Markets",1.34,Finance
+Roy Berry,PhD ,"Business, Psychology, Digital Marketing","Adobe Creative Suite, Email Marketing","Digital Trends, Creativity, Consumer Behavior, Social Media",2.16,Marketing
+Barbara Rodriguez,Associate's,"Marketing, Communications","Analytics, Content Creation","Branding, Social Media",2.14,Marketing
+Joan Burke,phd,"Algorithms, Programming","SQL, AWS, Java","Startups, Problem Solving, Open Source",1.88,Software Engineering
+Harold Daniels,Associate's,"Machine Learning, Statistics, Mathematics","Tableau, Excel, TensorFlow, Statistics, R","AI, Big Data, Visualization",2.59,Data Science
+Gary Bell,Associate's,"Design, User Experience, Art","Illustrator, Color Theory, Adobe Photoshop, UI/UX Design, Figma"," Creativity, Innovation, Visual Design ",1.57,Design
+Sarah Davis,Master's ,"Computer Graphics, Design, Visual Arts","Adobe Photoshop, UI/UX Design, Illustrator, Typography, Sketch","User Experience, Visual Design",3.53,Design
+Robert Taylor,high school,"Computer Science, Mathematics","SQL, TensorFlow, Excel, Statistics","Visualization, AI, Big Data, Statistics",1.54,Data Science
+Karen Rivera,BACHELOR'S,"Critical Thinking, Statistics, Analysis","Academic Writing, Survey Design, Data Collection","knowledge creation, analysis",1.74,Research
+Sarah Torres,Ph.D.,"Python, Mathematics","MACHINE LEARNING, TENSORFLOW, R, SQL, STATISTICS",Machine Learning; Big Data; AI,1.30,Data Science
+Sarah Davis,MASTER'S,null,"Illustrator, Figma, Typography","Visual Design, User Experience, Creativity",3.25,Design
+Edward Campbell,high school,"Marketing, Communications, Psychology","Analytics, Content Creation","Social Media, Digital Trends, Communication, Creativity",1.26,Marketing
+Brenda James,PhD,"Mathematics, Algorithms, Computer Science, Software Engineering","AWS, Python, JavaScript, Git, Node.js","Innovation, Startups",1.09,-
+Deborah Morris,Masters,"Child Development, Psychology, Education, English",Technology Integration; Curriculum Development; Communication; Assessment,"Teaching, Mentoring, Child Development",1.06,Education
+Adam Sullivan,High school,"Statistics, Mathematics","Accounting, Bloomberg Terminal, Risk Analysis, Financial Modeling, Excel","Trading, Risk Management, Investing",3.65,Finance
+Mark Young,Bachelor's,N/A,"Sketch, Color Theory, Figma, Adobe Photoshop","Innovation, Art",1.12,Design
+LAURA BARNES,Associates,"Writing, Critical Thinking, Analysis, Statistics","Literature Review, Statistical Analysis, Survey Design","Academic Writing, Critical Thinking, Discovery",3.59,Research
+Jason Sanchez,Bachelor's,"Computer Graphics, Art, User Experience","Illustrator, UI/UX Design","User Experience, Art, Innovation, Aesthetics",2.99,Design
+Alexander Coleman,phd,"Design, User Experience, Visual Arts","UI/UX Design, Typography, Adobe Photoshop, Sketch","Creativity, Innovation",2.46,Design
+paul lopez,Master's ,"English, Psychology, Child Development","Assessment, Classroom Management, Curriculum Development, Communication, Technology Integration","Curriculum Design, Education Policy",2.63,Education
+William Jackson,NULL,"Mathematics, Algorithms, Computer Science",NULL,"Open Source, Startups, Gaming",1.96,Software Engineering

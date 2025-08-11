@@ -1,36 +1,57 @@
 import pandas as pd
 import joblib
+from sklearn.metrics import classification_report, accuracy_score
+from preprocessing.clean_data import clean_data
 
-def run_predictions(test_file):
-    # Load the saved model and label encoder
-    model = joblib.load("model/xgb_pipeline.pkl")   # Adjust path if different
-    label_encoder = joblib.load("model/label_encoder.pkl")
+# Load saved model & label encoder
+pipeline = joblib.load("model/xgb_pipeline.pkl")
+label_encoder = joblib.load("model/label_encoder.pkl")
 
-    # Load test data
-    df = pd.read_csv(test_file)
+# Load test data
+test_df = pd.read_csv("data/test.csv")  # change path
 
-    # Combine multiple text fields into one (same as training)
-    df["combined_text"] = (
-        df["skills"].astype(str) + " " +
-        df["subjects"].astype(str) + " " +
-        df["interests"].astype(str)
-    )
+# Target column name
+target_column = "Career Path"
 
-    # Make predictions
-    preds_encoded = model.predict(df["combined_text"])
+# Apply the same cleaning as training
+test_df = clean_data(test_df, target_column)
 
-    # Decode back to original class labels
-    preds_labels = label_encoder.inverse_transform(preds_encoded)
+# Merge rare categories into 'Other' (same as training)
+min_count = 2
+class_counts = test_df[target_column].value_counts()
+rare_classes = class_counts[class_counts < min_count].index
+test_df[target_column] = test_df[target_column].replace(rare_classes, "Other")
 
-    # Add predictions to DataFrame
-    df["Predicted Career Path"] = preds_labels
+# Combine text columns
+test_df["combined_text"] = (
+    test_df["Skills"].astype(str) + " " +
+    test_df["Subjects"].astype(str) + " " +
+    test_df["Interests"].astype(str)
+)
 
-    # Save predictions to CSV
-    output_file = "predictions.csv"
-    df.to_csv(output_file, index=False)
+# If ground truth exists
+# If ground truth exists
+if target_column in test_df.columns:
+    # Separate rows with known labels for evaluation
+    eval_df = test_df.dropna(subset=[target_column])
 
-    print(f"Predictions saved to {output_file}")
-    print(df[["skills", "subjects", "interests", "Predicted Career Path"]].head())
+    if not eval_df.empty:
+        # Encode labels
+        y_true_encoded = label_encoder.transform(eval_df[target_column])
+        y_pred_encoded = pipeline.predict(eval_df["combined_text"])
 
-if __name__ == "__main__":
-    run_predictions("test_data.csv")  # Change to your actual test file
+        # Decode to strings
+        y_true = label_encoder.inverse_transform(y_true_encoded)
+        y_pred = label_encoder.inverse_transform(y_pred_encoded)
+
+        # Accuracy and report
+        print("✅ Accuracy:", accuracy_score(y_true, y_pred))
+        print("\n📊 Classification Report:\n", classification_report(y_true, y_pred))
+
+        # Summary of predictions
+        print("\n🔍 Prediction Summary:")
+        print(pd.Series(y_pred).value_counts())
+
+# Save predictions to CSV
+test_df.to_csv("data/noisy_test_predictions.csv", index=False)
+print("\n💾 Predictions saved to data/test_output.csv")

@@ -1,0 +1,51 @@
+Name,Education Level,Subjects,Skills,Interests,GPA,Career Path
+Mildred Black,MASTER'S,"Mathematics, Child Development, Education, English",-,"EDUCATION POLICY, CHILD DEVELOPMENT, CURRICULUM DESIGN, MENTORING",N/A,Education
+Timothy Collins,HIGH SCHOOL,"User Experience, Design, Art, Visual Arts",null,"Creativity, Innovation, Art",2.10,Design
+Theresa Palmer,associate's,"Marketing, Psychology, Digital Marketing","SEO, Analytics","Communication, Digital Trends, Social Media",3.08,Marketing
+Brian Perez,Associates,"Art, Visual Arts","TYPOGRAPHY, FIGMA, SKETCH","Visual Design, Innovation, Aesthetics",3.73,Design
+Lisa Morgan,high school,"Data Structures, Programming, Mathematics, Software Engineering","Node.js, JavaScript","Startups, Problem Solving, Open Source",2.99,Software Engineering
+Jose Hamilton,Ph.D.,"Biology, Anatomy, Pharmacology",Patient Care| Medical Equipment,"Medicine, Health & Wellness, Helping Others, Medical Research",1.39,Healthcare
+Kevin Carter,null,"Programming, Software Engineering, Algorithms, Data Structures",NULL,"Startups, Technology, Open Source",1.90,Software Engineering
+Deborah Morris,Ph.D.,"Finance, Mathematics, Statistics, Economics","Excel, Bloomberg Terminal","Investing, Markets, Trading, Economics",3.29,Finance
+George Turner,Bachelor's,"Research Methods, Writing","Data Collection, Academic Writing, Survey Design","Academic Writing, Discovery, Analysis, Knowledge Creation",1.16,Research
+Kenneth Gonzalez,Master's,"Statistics, Economics, Business","Bloomberg Terminal, Risk Analysis","Trading, Financial Planning",2.10,Finance
+Adam Sullivan,phd,NULL,"Statistics, TensorFlow, Tableau, R","AI, Statistics, Analytics",2.690,Data Science
+ Patricia Martin ,Bachelor's,"Computer Graphics, Design","Figma, Sketch, Color Theory","Innovation, User Experience, Aesthetics, Creativity",2.54,Design
+Christopher Thompson,Masters,null,"Adobe Creative Suite, Analytics","communication, digital trends, creativity, consumer behavior",1.03,Marketing
+Rachel Flores,High school,"Business, Economics, Statistics, Finance",N/A,"Investing, Financial Planning",3.68,Finance
+David Wilson,High School,"Design, Art, Visual Arts, User Experience",NULL,"Creativity, Innovation, Aesthetics","1,54",Design
+Frank Long,PhD,"Algorithms, Programming, Mathematics, Software Engineering","AWS, Python, Git, Node.js, React","Startups, Technology, Gaming",1.25,Software Engineering
+Matthew Lewis,Associate's,"Computer Science, Mathematics, Software Engineering, Algorithms","SQL, Node.js, React, Git, JavaScript","Problem Solving, Technology, Startups, Gaming",3.72,Software Engineering
+Rachel Foster,HIGH SCHOOL,"Mathematics, Curriculum, English, Child Development","Communication, Curriculum Development","CHILD DEVELOPMENT, MENTORING, CURRICULUM DESIGN",2.83,Education
+Christina Powell,PhD,"Statistics, Mathematics, Data Mining, Computer Science","Statistics, TensorFlow, Machine Learning","AI, Statistics, Visualization, Big Data",2.13,Data Science
+Frances Ford,high school,"Medicine, Anatomy, Pharmacology","Medical Terminology, Medical Equipment, Patient Care, CPR",null,1.45,Healthcare
+Jonathan Cox,Bachelor's,"Accounting, Business, Economics","Accounting, Bloomberg Terminal, Risk Analysis, Financial Modeling",NULL,"3,32",Finance
+Jessica Howard,Master's," Psychology, Child Development, English, Curriculum ","Communication, Classroom Management, Curriculum Development, Assessment, Technology Integration","Learning, Education Policy, Teaching",3.38,Education
+Jose Hamilton,Associate's,"Computer Graphics, Art, Visual Arts","Figma, Sketch, UI/UX Design","Creativity, Innovation, Art",3.06,Design
+Jeffrey Rogers,null,"Chemistry, Medicine","Patient Care, Medical Equipment, Electronic Health Records, CPR, Medical Terminology","Medicine, Helping Others",3.92,Healthcare
+Amy Brooks,bachelor's,"Research Methods, Writing, Analysis, Statistics","SPSS, Data Collection, Academic Writing, Statistical Analysis, Survey Design",null,1.89,Research
+Robert Taylor,bachelor's,"Computer Science, Data Structures, Mathematics, Programming","AWS, Node.js, React","Problem Solving, Technology, Startups, Gaming",2.03,
+Nancy Allen,HIGH SCHOOL,"Creative Writing, Visual Arts","Figma, UI/UX Design, Adobe Photoshop, Color Theory, Sketch",-,3.630,Design
+Roger Pierce,Masters,"Critical Thinking, Statistics, Research Methods, Writing","Literature Review, Academic Writing","Knowledge Creation, Academic Writing, Investigation",2.13,NULL
+Brenda James,High school,"Biology, Nursing, Pharmacology, Medicine","Electronic Health Records, Medical Equipment, CPR, Patient Care","Medical Research, Health & Wellness",3.57,Healthcare
+Frances Ford,null,"Python, Computer Science","Statistics, Tableau, Machine Learning, TensorFlow","Machine Learning, Big Data",1.17,Data Science
+Kevin Carter,PhD,"Nursing, Anatomy","Medical Terminology, Electronic Health Records, Medical Equipment, CPR, Patient Care","Medicine, Health & Wellness, Helping Others, Medical Research",3.95,Healthcare
+Maria Griffin,Associate's,"Accounting, Finance, Mathematics, Business","Risk Analysis, Investment Analysis, Accounting, Bloomberg Terminal","Trading, Financial Planning, Markets",2.25,Finance
+Karen Parker,bachelor's,"business, psychology, advertising","SEO, Email Marketing, Analytics","Social Media, Communication, Creativity",2.58,Marketing
+null,Bachelor's,"Programming, Software Engineering","Node.js, React, Python, Git","Startups, Technology, Gaming, Innovation",1.37,Software Engineering
+Dennis Simmons,Associates,"Data Mining, Computer Science","SQL, Python, Statistics, Tableau, R","Machine Learning, Big Data",1.92,Data Science
+Patricia Martin,High school,"Writing, Analysis","Survey Design, SPSS, Data Collection, Statistical Analysis, Literature Review","Discovery, Knowledge Creation, Investigation, Critical Thinking","3,54",Research
+David Wilson,bachelor's,"Mathematics, Machine Learning, Statistics, Computer Science","Machine Learning, Statistics, TensorFlow, Python, Tableau","Big Data, AI, Machine Learning",-0.49,Data Science
+Patricia Martin,,"Critical Thinking, Statistics","Data Collection, Academic Writing, SPSS, Statistical Analysis, Literature Review","Critical Thinking, Analysis, Investigation",3.44,Research
+Arthur Day,PhD,"Nursing, Anatomy, Chemistry","Medical Terminology, Patient Care, Electronic Health Records","Medical Research, Health & Wellness, Patient Care, Medicine","2,16",Healthcare
+Jonathan Cox,HIGH SCHOOL,"Mathematics, Data Mining","Statistics, TensorFlow","AI, Machine Learning, Big Data, Statistics",3.32,Data Science
+Jerry Russell,bachelor's,"Business, Marketing, Communications, Advertising","SEO, Analytics, Content Creation","Communication, Digital Trends, Social Media",3.31,Marketing
+Kyle Hunt,Master's ,"English, Child Development, Psychology","Technology Integration, Classroom Management, Curriculum Development, Assessment, Communication",N/A,2.56,Education
+Nicholas Bailey, High school ,N/A,"Financial Modeling, Investment Analysis, Bloomberg Terminal","Economics, Markets",2.04,Finance
+Aaron Myers,associate's,"Statistics, Critical Thinking, Analysis","Survey Design, SPSS","Discovery, Critical Thinking, Investigation, Analysis",3.79,Research
+Debra Patterson,associate's,"Curriculum, Psychology, Education",null,Learning; Mentoring; Curriculum Design,2.61,NULL
+Emily Johnson,BACHELOR'S,"English, Mathematics, Curriculum, Education","Assessment, Classroom Management","Education Policy, Mentoring, Curriculum Design, Child Development",2.42,Education
+Emily Johnson, Bachelor's,"Digital Marketing, Communications, Advertising, Marketing","SEO, Content Creation",-,3.98,Marketing
+Scott Watson,associate's,"Python, Mathematics","Statistics, R, TensorFlow","AI, Machine Learning, Analytics",2.20,Data Science
+Larry Peterson,Master's,"Algorithms, Mathematics, Software Engineering, Programming","AWS, Git, Python, Java","Technology, Innovation, Open Source, Problem Solving",1.35,Software Engineering
+Raymond Hughes,Masters,"communications, marketing, advertising, business","SEO, Email Marketing, Analytics"," Consumer Behavior, Branding, Creativity, Social Media ",2.33,Marketing
